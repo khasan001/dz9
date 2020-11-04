@@ -18,7 +18,9 @@ class Car {
 
     init(color: UIColor, brand: String, numberOfDoors: Int, numberOfWheels: Int, engineState: CarEngineState, doorState: CarDoorState) {
         self.color = color
+        
         self.brand = brand
+        
         self.numberOfDoors = numberOfDoors
         self.numberOfWheels = numberOfWheels
         self.engineState = engineState
